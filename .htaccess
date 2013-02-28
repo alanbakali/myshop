@@ -1,0 +1,13 @@
+# php flags
+php_flag 	display_errors 			1
+php_flag 	display_startup_errors 	1
+php_flag 	log_errors 				1
+php_flag	register_globals		0
+
+# php values
+php_value 	max_execution_time 		600
+php_value 	max_input_time	 		6000
+php_value 	error_reporting 		6135
+php_value	memory_limit			100M
+SetEnv TZ UTC
+AddType 'application/rss+xml; charset=utf-8' .xml

@@ -1,0 +1,1108 @@
+@charset "utf-8";
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+	border-top: none;
+	border-bottom: none;
+	height:100%;
+}
+
+#outerBody {
+	background-color: #FBFBFB;
+	height:100%;
+	width: 100%;
+	vertical-align:middle;
+	border: 1.5px solid #999999;
+}
+
+#bodyFrame {
+	border: 0;
+	vertical-align:top;
+	height:83%;
+	margin-right:20px;
+	margin-left:20px;
+
+}
+#footer {
+	height:5%;
+	font-size: 14px;
+	color:#FBFBFB;
+	border:none;
+	
+}
+
+#footer2 {
+	width: 100%;
+	color:#000;
+	border:none;
+	border-top: 1.5px solid #3D4D83;
+
+	
+}
+
+#loginForm {
+	color: #FCFCFE;
+	width:180px;
+	margin-right:6px;
+	
+}
+#loginHeader {
+	
+	border-bottom: 3px solid #999999;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #3D4D83;
+	text-align:left;
+	height:25px;
+	width:100%;
+	vertical-align:top;
+
+}
+#loginTerm {
+	margin:0px;
+	padding:0px;
+	font-size: 14px;
+	height:18px;
+	width:120px;
+	padding-right: 10px;
+}
+#loginlabel {
+	font-size: 13px;
+	width: 100px;
+	float: left;
+	border:0px;
+	color:#000000;
+	padding-right: 10px;
+}
+#loginButtons {
+	margin:0px;
+	padding:0px;
+	height:23px;
+	width: 100px;
+	font-size:13px;
+	float:left;
+	background-color:#F7F9F9;
+	background-image:url(/Myshop/images/final/login.gif);
+	background-repeat:no-repeat;
+	background-position: 8px;
+	text-indent:15px;	
+	
+}
+#loginLinks {
+	border-bottom: 1.5px solid #626773;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #3D4D83;
+	text-align:left;
+	width:170px;
+	padding-right: 10px;
+	overflow:hidden;
+
+}
+#loginLinks a {
+	font-size: 13px;
+	font-style:italic;
+	color: #5175A2;
+	vertical-align:text-bottom;
+}
+
+#loginLinks a:hover {
+	color: #CCCCCC;	
+}
+
+fieldset {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	position: relative;
+	border-top: 1.5px solid #3D5E76;
+}
+#loginFields {
+	margin-top: 10px;
+	color:#333333;
+	width:150px;
+	height:35px;
+}
+
+legend {
+	padding:0px;
+	margin:0px;
+	border:0px;
+	color:#3D5E76;
+	font-size:16px;
+	font-weight:bold;
+	left: -7px;
+	top: -7px;
+	position: relative;
+}
+legend span {
+	position: absolute;
+	margin-top: 0.5em;
+	font-size: 105%;
+}
+#banner {
+	width: 100%;
+	height:12%;
+	padding-right:3px;
+	vertical-align:bottom;
+	border-bottom:none;
+	
+}
+#banner img {
+	background-color:#FBFBFB;
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+#version {
+	color:#486395;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#versionNumber {
+	font-size:14px;
+	color:#FB942D;
+}
+#slogan {
+	height:20px;
+	
+	
+}
+
+#navigation1{
+	padding:0px;
+	margin:0px;
+	height: 30px;
+	width:100%;
+	background-image:url(/Myshop/images/raw/navigation.png);
+	background-repeat: repeat-x;
+	background-position:top;
+	font-size:11pt;
+	vertical-align:middle;
+	
+	
+}
+#navigation1 a {
+	color: #F4F7F7;
+	padding-right: 20px;
+	padding-left: 10px;
+	display: block;
+	padding-bottom:0px;
+	padding-top: 0px;
+	font-size: 11pt;
+}
+
+
+#navigation1 a:hover {
+	color: #CCCCCC;	
+}
+
+#current {
+	
+}
+
+#current a {
+	color:  #CCCCCC;
+	padding-right: 20px;
+	padding-left: 10px;
+	display: block;
+	padding-bottom:0px;
+	padding-top: 0px;
+	font-size: 11pt;
+	
+}
+#welcomeMessage {
+	font-size:11pt;
+}
+#welcomeMessage a {
+	color:#3D4D83;
+	margin-right: 5px;
+	font-size:11pt;
+}
+#welcomeMessage a:hover {
+	color: #a8a7a7;
+	
+}
+#adminMenu {
+	width:100%;
+	margin-top:25px;
+	height:150px;
+
+
+}
+#adminMenuTitles {
+	margin-left:50px;
+	float: none;
+	height: 25px;
+	width: 200px;
+	border-bottom: 1.5px solid #3D4D83;
+	font-size:16px;
+	font-weight:bold;
+	color:#CC3300;
+}
+#adminMenuTitles img {
+	height:20px;
+	width:20px;
+}
+#adminMenuLinks {
+	margin-left:20px;	
+}
+#adminMenuLinks a {
+	margin-left:10px;
+	color:#3D4D83;
+	height:20px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11pt;
+}
+#adminMenuLinks a:hover {
+	color: #CCCCCC;	
+}
+#adminMenuLinks img {
+	margin-left:10px;
+}
+label {
+	font-size: 13px;
+	width: 120px;
+	float: left;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	color:#000000;
+}
+/*****************************************************
+ *  REDEFINED HTML TAGS                              *
+ *****************************************************/
+img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+h1 {
+	font-size: 21px;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 15px;
+	margin-top:0px;
+	padding-top:0px;
+}
+h4 {
+	font-size: 12px;
+}
+h5, h6 {
+}
+/* the following for regular <a> elements */
+a:link {
+	font-size:13px;
+	text-decoration: none;
+	color : #273C50;
+}
+a:visited {
+	font-size:13px;
+	text-decoration: none;
+	color : #273C50;
+}
+a:hover {
+	font-size:13px;
+	text-decoration: none;
+	color: #a8a7a7;
+}
+a:active {
+	font-size:13px;
+	text-decoration: none;
+	color : #a8a7a7;
+}
+select, textarea, input {
+	color : #000;
+	border: 1.5px solid #000;
+	padding: 0px;
+	margin: 0px;
+}
+input.checkbox {
+	border-width: 0;
+}
+/* form elements */
+
+select, input[type=checkbox], input[type=radio], input[type=button], input[type=submit], input[type=reset] {
+	cursor:	pointer;
+	border: 1px solid #000;
+}
+input[type = text], input[type = file] {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+input.link_alike {
+	background-color: #FFFFFF;
+	border-width: 0px;
+	color: #4171b5;
+	font-weight: bold;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+input.link_alike:hover {
+	background-color: #FFFFFF;
+	border-width: 0px;
+	color: #FF0000;
+	font-weight: bold;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+	background-image:url(/Myshop/images/final/shadow.gif);
+}
+hr {
+	border: 0.5px solid #23243A;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	padding:0px;
+	float: left;
+	width:100%
+}
+li {
+	list-style-image: none;
+	list-style-type: none;
+	display:block;
+}
+tr {
+	margin: 0px;
+	padding: 0px;
+	border:0px;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	margin: 0px;
+}
+#forms {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	
+}
+#formClear {
+	padding-top:60px;
+}
+
+#formFooter {
+	padding-top:40px;
+}
+#formNormal {
+	padding-top:60px;
+	height: 400px;
+}
+#formHeader {
+	background-color:#FBFBFB;
+	border-bottom: 1px solid #999999;
+	text-indent:10px;
+	height:30px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #3D4D83;
+}
+
+#rightBoby {
+	width: 100%; 
+	float:left;
+	color: #EC4A33;
+	font-size: 6px;
+	height:100%;
+	margin-left:180px;
+}
+#leftBoby {
+	margin:0px;
+	padding-top:60px;
+	border:0px;
+	width: 30%;
+	height:100%;
+}
+#formFields {
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	width:100%;
+	text-align:left;
+	margin-top: 10px;
+	color:#EE2020;
+}
+
+#formMenu {
+	margin-left:10px;
+	height:100px;
+}
+#formMenuTitles {
+	margin: 0px;
+	margin-left:50px;
+	float: none;
+	height: 20px;
+	width: 250px;
+	padding: 0px;
+	color: #4F180F;
+	font-weight:bold;
+}
+#formMenuLinks {
+	margin-left:10px;
+	font-size:14pt;
+}
+#formMenuLinks a {
+	margin-left:10px;
+	color:#5B5BFF;
+	font-size:11pt;
+}
+#formMenuLinks a:hover {
+	color: #CCCCCC;	
+}
+#formMenuLinks img {
+	margin-left:15px;
+}
+#formButtons {
+	margin-top:5px;
+	margin-left:120px;
+	border: 1px solid #000;
+	width: 90px;
+	height:25px;
+	background-color:#F7F9F9;
+}
+
+#formButtonsCancel {
+	margin-top:5px;
+	margin-left:20px;
+	border: 1px solid #000;
+	width: 80px;
+	height:25px;
+	cursor: auto;
+	background-color:#F7F9F9;
+}
+#formTextarea {
+	border: 1px solid #000;
+	width: 270px;
+	height:100px;
+}
+#formLine,  #formLine2 {
+	font-size:16px;
+	margin:0px;
+	float: none;
+	height: 2px;
+	padding: 0px;
+	border-bottom-width: 1.5px;
+	border-bottom-style: solid;
+	border-bottom-color: #DDD;
+}
+#formLine  {
+	width:70%;
+}
+#formLine2 {
+	width:60%;
+}
+#errorMsg {
+	color: #CE0000;
+	border: 1.5px solid #CE0000;
+	width:180px;
+	text-indent:5px;
+	height:25px;
+	padding-top:8px;
+}
+#messageBox {
+	background-color:#F7F9F9;
+	float: none;
+	font-size:13px;
+	padding: 0px;
+	color: #24272B;
+	text-align: left;
+	height: 35px;
+	border: none;
+	border-bottom: 1px solid #999999;
+	text-indent:10px;
+}
+
+#messageBox img {
+	height:20px;
+	width:20px;
+}
+/* These following are css for displayViewStockItems*/
+/* These following are css for displayViewStockItems*/
+#stockItemsHeader {
+	color:#FBFBFB;
+	background-color:#999999;
+	border-top: 2px solid #000000;
+	border-bottom: 23px solid #000000;
+	height:25px;
+	text-align: center;
+}
+#stockItems {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height:36px;
+	font-size:13px;
+	padding-left:5px;
+	color:#333333;
+	
+}
+
+#stockItems:hover {
+	
+}
+#itemIDs {
+	width:7%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	vertical-align:middle;
+	padding-left:5px;
+}
+#names {
+	width:7%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	vertical-align:middle;
+	padding-left:5px;
+}
+#serials {
+	width:11%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#descrpitions {
+	width:32%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+	overflow:hidden;
+}
+#actions {
+	width:10%;
+	text-align: center;
+	border-bottom: 1px dotted #DFDFDF;
+	vertical-align:middle;
+}
+#actions img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:16px;
+	height:16px;
+	margin-right:3px;
+	margin-left:3px;
+	vertical-align:middle;
+}
+/* These following are css for displayViewSales*/
+
+
+#salesName {
+	width:8%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#salesSerials {
+	width:13%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#salesDescription {
+	width:30%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;	
+}
+#salesActions {
+	width:9%;
+	padding-left:10px;
+	text-align:center;
+	border-bottom: 1px dotted #DFDFDF;
+	vertical-align:middle;
+}
+
+#salesActions img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:16px;
+	height:16px;
+	margin-left:3px;
+	vertical-align:middle;
+	margin-right:5px;
+}
+/***************************************************************/
+/* These following are css for displayViewInstallments*/
+
+
+#installmentName {
+	width:8.5%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#installmentSerials {
+	width:11%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#installmentDescription {
+	width:28%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+	overflow:hidden;	
+}
+#installmentActions {
+	
+	width:10%;
+	padding-left:3px;
+	text-align:center;
+	border-bottom: 1px dotted #DFDFDF;
+	vertical-align:middle;
+}
+#installmentActions img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	margin-left:0px;
+	margin-right:6px;
+}
+/***************************************************************/
+
+
+/***************************************************************/
+/* These following are css for displayViewInstallments*/
+
+
+#expensesName {
+	width:7%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+
+#expensesSerials {
+	width:11%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+
+
+#expensesSerials a {
+	color:#5685D1;
+}
+#expensesSerials a:hover {
+	color: #CCCCCC;	
+}
+#expensesDescription {
+	width:30%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+	overflow:hidden;	
+}
+#expensesActions {
+	padding-left:8px;
+	width:9%;
+	text-align:center;
+	border-bottom: 1px dotted #DFDFDF;
+	vertical-align:middle;
+}
+#expensesActions img {
+	
+	border:0px;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	margin-left:10px;
+	padding-right:10px;
+}
+/***************************************************************/
+/* These following are css for displayDownPaymentss*/
+
+
+#downPaymentName {
+	width:8.5%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#downPaymentID {
+	width:10%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+
+#downPaymentQuantity {
+	width:6%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#downPaymentSerials {
+	width:12%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#downPaymentDescription {
+	width:28%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+	overflow:hidden;	
+}
+#downPaymentActions {
+	padding-left:3px;
+	width:10%;
+	text-align:center;
+	border-bottom: 1px dotted #DFDFDF;
+	vertical-align:middle;
+}
+#downPaymentActions img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	margin-left:0px;
+	margin-right:6px;
+}
+
+/* These following are css for displayDownPaymentss*/
+
+
+#servicesName {
+	width:8%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#servicesSerials {
+	width:11%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#servicesDescription {
+	width:30%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+	overflow:hidden;	
+}
+#servicesActions {
+	padding-left:8px;
+	width:9%;
+	text-align:center;
+	border-bottom: 1px dotted #DFDFDF;
+	vertical-align:middle;
+}
+#servicesActions img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	margin-left:0px;
+	margin-right:6px;
+}
+/***************************Users List**************************************/
+#namesUsers {
+	width:10%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	vertical-align:middle;
+	padding-left:5px;
+}
+#serialUsers {
+	width:20%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+#descrpitionsUsers {
+	width:43%;
+	border-right: 1px dotted #DFDFDF;
+	border-bottom: 1px dotted #DFDFDF;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+	overflow:hidden;
+}
+#actionsUsers {
+	width:10%;
+	text-align: center;
+	border-bottom: 1px dotted #DFDFDF;
+	vertical-align:middle;
+}
+#actionsUsers img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:16px;
+	height:16px;
+	margin-right:3px;
+	margin-left:3px;
+	vertical-align:middle;
+}
+/***************************************************************/
+
+#itemInfo {
+	color:#000000;
+	width: 280px;
+	overflow:hidden;
+	padding-left:10px;
+}
+
+#resultCounter {
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	
+	padding-top:3px;
+	padding-right:3px;
+	border:0px;
+	margin:0px;
+	color:#3E5895;
+	vertical-align:bottom;
+}
+#resultCounter img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	margin-left:10px;
+	padding-bottom:2px;
+	vertical-align:bottom;
+	text-align:left;
+
+}
+
+#resultCounter a {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-size:15px;
+	color:#5C79BC;
+}
+#resultCounter a:hover {
+	color: #a8a7a7;
+	
+}
+#filter {
+	color: #000000;
+	font-size: 13px;
+	font-weight:bold;
+	vertical-align:middle;
+	margin-left:10px;
+}
+
+#radio {
+	color: #000000;
+	font-size: 12px;
+	vertical-align:middle;
+}
+textarea {
+ scrollbar-face-color: #FFFFFF; 
+ scrollbar-shadow-color: #FFFFFF;
+ scrollbar-highlight-color: #FFFFFF;
+ scrollbar-3dlight-color: #FFFFFF;
+ scrollbar-darkshadow-color: #FFFFFF;
+ scrollbar-track-color: #FFFFFF;
+ scrollbar-arrow-color: #FFFFFF;
+
+}
+#searchTerm {
+	margin:0px;
+	padding:0px;
+	font-size: 14px;
+	height:18px;
+	overflow:hidden;
+}
+#searchlabel {
+	font-size: 14px;
+	float: none;
+	color:#000000;
+	margin-right:10px;
+	margin-left:5px;
+}
+
+
+#searchSelect {
+	margin-left:0px;
+	margin-right:30px;
+	border: 1.5px solid #626773;
+}
+#searchButtons {
+	margin:0px;
+	padding:0px;
+	height:23px;
+	width: 100px;
+	font-size:13px;
+	margin-left:10px;
+	background-color:#F7F9F9;;
+	background-image:url(../images/raw/search.png);
+	background-repeat:no-repeat;
+	background-position: 8px;
+	text-indent:15px;
+	
+}
+
+#searchButtonsPDF {
+	background-image:url(/Myshop/images/raw/pdf.png);
+	background-repeat:no-repeat;
+	background-color:#FBFBFB;
+	text-align:left;
+	text-indent:20px;
+	padding:0px;
+	height:20px;
+	border:none;
+	color:#3D4D83;
+	font-size:13px;
+	margin-left:10px;
+	width:110px;
+}
+
+#searchButtonsPDF img {
+	width:24px;
+	height:24px;
+	vertical-align:middle;
+}
+#saveButtonsPDF {
+	background-image:url(/Myshop/images/raw/pdf.png);
+	background-repeat:no-repeat;
+	background-color:#FBFBFB;
+	text-align:left;
+	text-indent:25px;
+	padding:0px;
+	height:25px;
+	color:#000;
+	font-size:13px;
+	margin-left:120px;
+	float:left;
+	width:110px;
+	border: 1.5px solid #626773;
+	background-color:#F7F9F9;
+	
+}
+
+#saveButtonsPDF img {
+	width:24px;
+	height:24px;
+	margin-top:2px;
+}
+#searchButtonsPDF:hover {
+	color:#CCCCCC;
+}
+#option {
+	color:#999999;
+}
+#optional {
+	color:#12C239;
+	font-size:14px;
+}
+
+#disabled {
+	color:#000;
+	margin:0px;
+	padding:0px;
+	background-color:#FBFBFB;
+	border:none;
+}
+#next {
+	background-image: url(/Myshop/images/raw/next.png);
+	background-repeat:no-repeat;
+}
+
+#next a {
+	background-image: url(/Myshop/images/raw/next.png);
+	background-repeat:no-repeat;
+}
+
+#next a:hover {
+	background-image: url(/Myshop/images/raw/next.png);
+	background-repeat:no-repeat;
+}
+#previous {
+	background-image:url(/Myshop/images/raw/previous.png);
+	background-repeat:no-repeat;
+}
+#reportTitle {
+	font-size:18px;
+	font-weight:bold;
+	color: #CC3300;
+	width:70%;
+	border-bottom: 1.5px solid #626773;
+
+}
